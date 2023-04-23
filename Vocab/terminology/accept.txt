@@ -2,3 +2,6 @@
 [Bb]ash
 [Dd]ocker
 (?i)lxd
+(?i)rsnapshot
+Microsystems
+Solaris
