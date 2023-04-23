@@ -1,0 +1,3 @@
+(i?)nvchad
+[Nn]eovim
+[Nn]vim
