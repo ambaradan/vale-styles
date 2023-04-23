@@ -1,0 +1,7 @@
+(?i)nvchad
+[Nn]eovim
+(?i)nvim
+Telescope
+Mason
+Lazy
+
