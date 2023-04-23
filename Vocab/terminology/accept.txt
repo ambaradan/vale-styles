@@ -2,6 +2,7 @@
 [Bb]ash
 [Dd]ocker
 (?i)lxd
+macvlan
 (?i)rsnapshot
 Microsystems
 Solaris
