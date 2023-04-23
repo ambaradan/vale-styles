@@ -1,3 +1,6 @@
 (i?)nvchad
 [Nn]eovim
 [Nn]vim
+[Aa]nsible
+[Bb]ash
+(i?)lxd
