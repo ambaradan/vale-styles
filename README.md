@@ -1,7 +1,6 @@
 # Rocky Docs - Vale Styles
 
-Project for creating custom Vocabularies for Markdown code analysis with Valex linter.
-x
+Project for creating custom Vocabularies for Markdown code analysis with Vale linter.
 
 ## Purpose of the project
 
