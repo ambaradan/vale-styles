@@ -60,7 +60,7 @@ Downloading packages [2/2] █████████████████�
 Vocabularies will be downloaded to `~/.local/share/nvim/vale-styles/` and a **.gitignore** has been set up to prevent them from being shared by Git.
 
 ```text
-~/.local/share/nvim/vale-styles/.gitignore
+cat ~/.local/share/nvim/vale-styles/.gitignore
 alex
 RedHat
 ```
@@ -79,3 +79,20 @@ Configure the file `custom/config/null-ls.lua`:
   -- diagnostic markdown prose
   b.diagnostics.vale,
 ```
+
+### Vocabularies
+
+Vocabularies are basically a folder containing two files, an **accept.txt** and a **reject.txt**. In *accept.txt* all the custom terms to be accepted one per line should be entered; the terms are case-sensitive by default.
+
+Vale allows some dedicated settings for terms:
+
+```text
+(?i)linux
+[Rr]ocky
+```
+
+The entry, (?i)linux, marks the entire pattern as case-insensitive while the second, [Rr]ocky, provides two acceptable options.
+
+## Conclusion
+
+This should help both when revising the document but also when writing new documents.
