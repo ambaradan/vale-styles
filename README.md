@@ -50,10 +50,11 @@ cp ~/.local/share/nvim/vale-styles/.vale.ini ~/.
 and initialize Vocabularies:
 
 ```bash
+cd ~/
 ~/.local/share/nvim/mason/packages/vale/vale sync
  SUCCESS  Downloaded package 'RedHat'                                                                 
  SUCCESS  Downloaded package 'alex'                                                                    
-Downloading packages [2/2] ████████████████████████████████████████████████████████████████████████ 100% | 2s
+Downloading packages [2/2] █████████████████████████████████████████████ 100% | 2s
 ```
 
 Vocabularies will be downloaded to `~/.local/share/nvim/vale-styles/` and a **.gitignore** has been set up to prevent them from being shared by Git.
@@ -66,4 +67,15 @@ RedHat
 
 ## NvChad setup
 
+Install the language server according to preference from the UI or with:
 
+```text
+:MasonInstall vale
+```
+
+Configure the file `custom/config/null-ls.lua`:
+
+```lua
+  -- diagnostic markdown prose
+  b.diagnostics.vale,
+```
