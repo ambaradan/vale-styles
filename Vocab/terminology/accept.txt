@@ -6,9 +6,13 @@ automount
 bootable
 chroot
 cron
+cli
+cmake
 cronie
 crontab
+[Cc]onfigs
 [Dd]ocker
+EPEL
 firewalld
 glusterfs
 httpd
@@ -24,6 +28,7 @@ lsyncd
 macvlan
 mailx
 Microsystems
+Multiplatform
 nano
 openssl
 pluggable
