@@ -1,0 +1,12 @@
+(?i)Apache
+cerbot
+Hashicorp
+Katello
+[Mm]ariadb
+Mattermost
+[Nn]extcloud
+[Nn]ginx
+Podman
+(?i)Remi
+VMware
+vSphere
