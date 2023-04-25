@@ -1,2 +1,5 @@
 [Rr]ockydocs
 [Ll]inux
+(?i)mkdocs
+env
+[Ee]nviroment
